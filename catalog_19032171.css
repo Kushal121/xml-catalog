@@ -1,0 +1,610 @@
+Page{
+    background-color:black;
+    overflow-x: hidden;
+}
+
+BackGroundImage{
+    display:grid;
+    position:relative;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    color:#ffffff;
+    font-size:32px; 
+    margin-bottom:50px;
+}
+
+AboutStore {
+	display: block;
+	font-family: Courier New;
+	font-size: 15pt;
+	text-align: center;
+	width: 1010px;
+	margin-left: 190px;
+	margin-top: 10px;
+	color: white;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+Logo{
+    background-image: url("images/logo.png");
+    grid-column:0/3;
+    margin-top:20px;
+    margin-left: 20px;
+    width: 130px;
+    height: 130px;
+
+}
+
+Logo:hover{
+    box-shadow: 0 5px 15px white;
+    transition: opacity 0.3s ease-in-out;
+    animation-play-state: running;
+}
+
+StoreName{
+    text-shadow: 0 5px 15px black;
+    transition: opacity 0.3s ease-in-out;
+	margin-left: 350px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+Store{
+    position:inline-grid;
+    grid-column:2/12;
+    grid-row:1/1;
+    margin-top:1.5em;
+    margin-left:3em;
+    font-family: Roboto;
+    color: #D7D2CC;
+
+}    
+
+
+Slogan{
+    position:inline-grid;
+    grid-column:2/9;
+    grid-row-start:2;
+    font-family:Ink Free;
+    font-size:1em;
+    font-weight: 900;
+    color: white;
+    margin-bottom:5vh;
+    margin-left:1.5em;
+    transform: translateY(-3vh);
+    animation: fade 5s;
+}
+         
+@keyframes fade {
+    0% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+slogan:hover {
+    animation-play-state: running;
+	font-weight: bold;
+}
+
+
+Footer{
+display:grid;
+grid-template-columns:24fr 11fr 41fr ;
+grid-template-rows:17vh;
+background-color:black;
+color:white;
+font-family: Roboto;
+margin-top:8vh;
+}
+
+Logo{
+float: left;    
+background-image:url(images/logo.png);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+Container{
+display:grid;
+margin-bottom: 30px;
+align-items: center;
+justify-items: center;
+color: rgb(200,200,200);
+margin-left: 250px;
+}
+
+
+follow{
+    background-image: url(images/follow.PNG);
+	margin-bottom: 38px;
+    background-repeat: no-repeat;
+    background-size: 58% 70%;
+    align-items: center;
+    transform:translateX(6rem) translateY(4.5vh);
+}
+
+
+Block1{
+    display:grid;
+    position: relative;
+    grid-template-columns:2fr 1fr;
+    grid-auto-rows:minmax(80vh,auto);
+}
+
+
+Block2{
+    display:grid;
+    position: relative;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows: minmax(60vh,auto);
+    margin-bottom:10vh;
+    font-family:Roboto;
+    font-size:1em;
+    font-weight:500;
+}
+    
+SongsDetail1{
+        font-size:1em;
+        padding-left:2rem;
+		margin-top: 5px;
+		color: white;
+}
+SongsDetail2{
+        font-size:1em;
+        padding-top:6vh;
+        padding-left:2rem;
+		color: white;
+}
+
+Review {
+margin-left: 50px;	
+margin-bottom: 5px;
+	
+}
+
+Image1{
+    display:block;
+    background-image: url("images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image1:hover{
+    background-image: url("images/overlay1.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+
+Image2{
+    display:block;
+    background-image: url("images/image2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+}
+
+Image2:hover{
+    background-image: url("images/overlay2.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+
+Image3{
+    display:block;
+    background-image: url("images/image3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+}
+
+Image3:hover{
+    background-image: url("images/overlay3.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+
+Image4{
+    display:block;
+    background-image: url("images/image4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    background-position:50% 45%;
+    transition: all 800ms ease-in-out;
+}
+
+Image4:hover{
+    background-image: url("images/overlay4.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+
+Image5{
+    display:block;
+    background-image: url("images/image5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    background-position: 50% 40%;
+    transition: all 800ms ease-in-out;
+}
+
+Image5:hover{
+    background-image: url("images/overlay5.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+
+}
+
+Image6{
+    display:block;
+    background-image: url("images/image6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image6:hover{
+    background-image: url("images/overlay6.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+
+Image7{
+    display:block;
+    background-image: url("images/image7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image7:hover{
+    background-image: url("images/overlay7.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image8{
+    display:block;
+    background-image: url("images/image8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image8:hover{
+    background-image: url("images/overlay8.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image9{
+    display:block;
+    background-image: url("images/image9.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image9:hover{
+    background-image: url("images/overlay9.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image10{
+    display:block;
+    background-image: url("images/image10.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image10:hover{
+    background-image: url("images/overlay10.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image11{
+    display:block;
+    background-image: url("images/image11.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image11:hover{
+    background-image: url("images/overlay11.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image12{
+    display:block;
+    background-image: url("images/image12.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+	
+
+}
+
+Image12:hover{
+    background-image: url("images/overlay12.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image13{
+    display:block;
+    background-image: url("images/image13.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+}
+
+Image13:hover{
+    background-image: url("images/overlay13.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}	
+Image14{
+    display:block;
+    background-image: url("images/image14.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+}
+
+Image14:hover{
+    background-image: url("images/overlay14.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+Image15{
+    display:block;
+    background-image: url("images/image15.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:2rem;
+    border:1px solid black;
+    border-radius: 2%;
+    transition: all 800ms ease-in-out;
+}
+
+Image15:hover{
+    background-image: url("images/overlay15.jpg");
+    transition: all 800ms ease-in-out;
+    cursor: pointer;
+}
+h1{
+    display:grid;
+    align-items: end;
+    justify-items: center;
+    font-family:Arial; 
+    font-size:2em; 
+}
+
+About{
+    display: grid;
+    transform:translateY(-10vh);
+}
+
+Description{
+    display:grid;
+    justify-items: start;
+    padding-left:1rem;
+    padding-top:3vh;
+    font-family:Roboto;
+    font-size:1em;
+}
+
+
+Singers,FeatBy,NoofArtists,ReleaseYear,Recorded,SongLength,
+Album,SongName,GenreName,Country,Producer,SongWriters,
+Label,Studio{
+    display:list-item;
+    list-style: square;
+    border-bottom:1px solid white; 
+	padding-top:5%;	
+}
+
+h2{
+    font-size:2em;
+}
+
+Int1{
+    display:block;
+    background-image:url(images/int1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-3rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+
+
+Int2{
+    display:inline-block;
+    background-image:url(images/int2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+
+Int3{
+    display:inline-block;
+    background-image:url(images/int3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+
+Int4{
+    display:inline-block;
+    background-image:url(images/int4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+
+Int5{
+    display:inline-block;
+    background-image:url(images/int5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int6{
+    display:inline-block;
+    background-image:url(images/int6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int7{
+    display:inline-block;
+    background-image:url(images/int7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int8{
+    display:inline-block;
+    background-image:url(images/int8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int9{
+    display:inline-block;
+    background-image:url(images/int9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int10{
+    display:inline-block;
+    background-image:url(images/int10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int11{
+    display:inline-block;
+    background-image:url(images/int11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int12{
+    display:inline-block;
+    background-image:url(images/int12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int13{
+    display:inline-block;
+    background-image:url(images/int13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int14{
+    display:inline-block;
+    background-image:url(images/int14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}
+Int15{
+    display:inline-block;
+    background-image:url(images/int15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:translateY(4vh) translateX(-1rem);
+    border:1px solid black;
+    border-radius: 2%;
+}

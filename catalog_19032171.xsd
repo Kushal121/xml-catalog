@@ -1,0 +1,149 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Page">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BackGroundImage">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="Logo"/>
+							<xs:element name="Store">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="StoreName"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="Slogan"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Body">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="AboutStore"/>
+							<xs:element name="Song" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Block1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:string" name="Image1" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image2" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image3" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image4" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image5" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image6" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image7" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image8" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image9" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image10" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image11" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image12" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image13" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image14" minOccurs="0"/>
+													<xs:element type="xs:string" name="Image15" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Block2">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="SongsDetail1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:string" name="h2"/>
+																<xs:element name="Song">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element type="xs:string" name="Review" minOccurs="0">
+                                      </xs:element>
+																			<xs:element name="Genre">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element type="xs:string" name="Review" minOccurs="0"/>
+																						<xs:element type="xs:string" name="SongName"/>
+																						<xs:element type="xs:string" name="GenreName"/>
+																						<xs:element type="xs:string" name="Country"/>
+																						<xs:element type="xs:string" name="Producer"/>
+																						<xs:element type="xs:string" name="SongWriters"/>
+																						<xs:element type="xs:string" name="Label"/>
+																						<xs:element type="xs:string" name="Studio"/>
+																					</xs:sequence>
+																					<xs:attribute type="xs:string" name="Name" use="optional"/>
+																					<xs:attribute type="xs:string" name="Genre_ID" use="optional"/>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute type="xs:string" name="SongID" use="optional"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="SongsDetail2">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:string" name="Singers"/>
+																<xs:element type="xs:string" name="FeatBy"/>
+																<xs:element type="xs:string" name="NoofArtists"/>
+																<xs:element name="ReleaseYear">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element type="xs:string" name="Year"/>
+																			<xs:element type="xs:string" name="Month"/>
+																			<xs:element type="xs:string" name="Day"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element type="xs:string" name="Recorded"/>
+																<xs:element type="xs:string" name="SongLength"/>
+																<xs:element type="xs:string" name="Album"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element type="xs:string" name="Int1" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int2" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int3" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int4" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int5" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int6" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int7" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int8" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int9" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int10" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int11" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int12" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int13" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int14" minOccurs="0"/>
+													<xs:element type="xs:string" name="Int15" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:float" name="ID" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Footer">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="Logo"/>
+							<xs:element name="Container">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="Address"/>
+										<xs:element type="xs:string" name="Contact.Number"/>
+										<xs:element type="xs:string" name="WebsiteURL"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="Follow"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

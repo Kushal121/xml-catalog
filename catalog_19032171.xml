@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19032171.css"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19032171.xsd">
+	<BackGroundImage>
+		<Logo/>
+		<Store>
+			<StoreName>Nepal Music Store</StoreName>
+		</Store>
+		<Slogan>If the Music is too loud you’re too old.</Slogan>
+	</BackGroundImage>
+	<Body>
+		<AboutStore>
+							Nepal Music Store has various types of music where you can come and relax and listen to various types of music such as jazz, rock, country music, pop and dubstep.
+							You bring your friends and family to listen and enjoy the music and relax in your own cabinet. It's the best music store you can find in all kathmandu valley.
+							</AboutStore>
+		<Song ID=" 01">
+			<Block1>
+				<Image1/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S1">
+						<!--genre_id required-->
+						<Genre Name="Jazz" Genre_ID="J1">
+							<Review>⭐⭐⭐⭐⭐</Review>
+							<SongName>SongName: Mischief </SongName>
+							<GenreName>	Genre: Jazz</GenreName>
+							<Country>Country: USA</Country>
+							<Producer>Producer Name: Matt Pierson</Producer>
+							<SongWriters>Song Writer: Brad Mehldau, Brian Blade</SongWriters>
+							<Label>Label: Warner Bros</Label>
+							<Studio>Studio: Power Station, New York City</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singers: Joshua Redman</Singers>
+					<FeatBy>Feat By: Christian McBride</FeatBy>
+					<NoofArtists>No of Artists: 4</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 1994</Year>
+						<Month>Month: January</Month>
+						<Day>Day: 15</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: March 8-10,1994</Recorded>
+					<SongLength>Song Length: 69.39</SongLength>
+					<Album>Album: MoodSwing</Album>
+				</SongsDetail2>
+				<Int1/>
+			</Block2>
+		</Song>
+		<Song ID=" 02">
+			<Block1>
+				<Image2/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S2">
+						<!--genre_id required-->
+						<Genre Name="Rock" Genre_ID="R1">
+							<Review>⭐⭐⭐⭐⭐</Review>
+							<SongName>SongName: American Girl</SongName>
+							<GenreName>Genre: Rock</GenreName>
+							<Country>Country: US</Country>
+							<Producer>Producer Name: Denny Cordell</Producer>
+							<SongWriters>Song Writer: Tom Petty</SongWriters>
+							<Label>Label: Shelter</Label>
+							<Studio>Studio: Shelter Studios, Hollywood</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Tom Petty</Singers>
+					<FeatBy>Feat By: The Heartbreakers</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 1977</Year>
+						<Month>Month: February</Month>
+						<Day>Day: 21</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: July 4,1976</Recorded>
+					<SongLength>Length: 3.35</SongLength>
+					<Album>Album: Tom Petty and The Heartbreakers </Album>
+				</SongsDetail2>
+				<Int2/>
+			</Block2>
+		</Song>
+		<Song ID=" 03">
+			<Block1>
+				<Image3/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S3">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Country Music" Genre_ID="CM1">
+							<SongName>SongName: The Good Ones</SongName>
+							<GenreName>Genre: Country Music</GenreName>
+							<Country>Country: USA</Country>
+							<Producer>Producer Name: Zach Kale, Ross Copperman</Producer>
+							<SongWriters>Song Writer: Gabby Barrett, Zach Kale, Emily Landis</SongWriters>
+							<Label>Label: Warner Music Nashville</Label>
+							<Studio>Studio: Goldmine Studios</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Gabby Barrett</Singers>
+					<FeatBy>Feat By: Zach Kale</FeatBy>
+					<NoofArtists>No of Artists: 3</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2020</Year>
+						<Month>Month: June</Month>
+						<Day>Day: 08</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: July 12,2020</Recorded>
+					<SongLength>Song Length: 3.33</SongLength>
+					<Album>Album: Gabby Barrett</Album>
+				</SongsDetail2>
+				<Int3/>
+			</Block2>
+		</Song>
+		<Song ID=" 04">
+			<Block1>
+				<Image4/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S4">
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<Review>⭐⭐⭐⭐⭐</Review>
+							<SongName>Song Name: Loved By You</SongName>
+							<GenreName>Genre: Pop</GenreName>
+							<Country>Country: Canada</Country>
+							<Producer>Producer Name: Louis Bell, Jon Bellion, Benny Blanco, Tommy Brown, Steven Franks</Producer>
+							<SongWriters>Song Writer: Ashley Boyd, Jason Boyd</SongWriters>
+							<Label>Label: Def Jam, RBMG, SB Projects, Schoolboy, Universal Music</Label>
+							<Studio>Studio: Henson Recording Studio</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Justin Bieber, Burna Boy</Singers>
+					<FeatBy>Feat By: Burna Boy</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2021</Year>
+						<Month>Month: March</Month>
+						<Day>Day: 19</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2019-2020</Recorded>
+					<SongLength>Song Length: 2.39</SongLength>
+					<Album>Album: Justice</Album>
+				</SongsDetail2>
+				<Int4/>
+			</Block2>
+		</Song>
+		<Song ID=" 05">
+			<Block1>
+				<Image5/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S5">
+						<!--genre_id required-->
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<Genre Name="Dubstep" Genre_ID="D1">
+							<SongName>Song Name: I Need Air</SongName>
+							<GenreName>Genre: Dubstep</GenreName>
+							<Country>Country: UK</Country>
+							<Producer>Producer Name: Magnetic Man</Producer>
+							<SongWriters>Song Writer: Arthur Smith, Angela Hunte, Beni Adejumo, Oliver Jones</SongWriters>
+							<Label>Label: Sony,Columbia</Label>
+							<Studio>Studio: Electronic Music Project</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Magnetic Man</Singers>
+					<FeatBy>Feat By: Angela Hunte</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2010</Year>
+						<Month>Month: July</Month>
+						<Day>Day: 23</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: August 12,2010</Recorded>
+					<SongLength>Song Length: 4.18</SongLength>
+					<Album>Album: Magnetic Man</Album>
+				</SongsDetail2>
+				<Int5/>
+			</Block2>
+		</Song>
+		<Song ID=" 06">
+			<Block1>
+				<Image6/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S6">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Happier</SongName>
+							<GenreName>Genre: Pop</GenreName>
+							<Country>Country: USA</Country>
+							<Producer>Producer Name: Marshmello</Producer>
+							<SongWriters>Song Writer: Christopher Comstock, Dan Smith, Steve Mac</SongWriters>
+							<Label>Label: Astralwerks</Label>
+							<Studio>Studio: Goldmine Studios</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Marshmello</Singers>
+					<FeatBy>Feat By: Bastille</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2018</Year>
+						<Month>Month: August</Month>
+						<Day>Day: 17</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: September 12,2020</Recorded>
+					<SongLength>Song Length: 3.34</SongLength>
+					<Album>Album: Happier</Album>
+				</SongsDetail2>
+				<Int6/>
+			</Block2>
+		</Song>
+		<Song ID=" 07">
+			<Block1>
+				<Image7/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S7">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Boy With Luv</SongName>
+							<GenreName>Genre: K-Pop</GenreName>
+							<Country>Country: South Korea</Country>
+							<Producer>Producer Name: Pdogg</Producer>
+							<SongWriters>Song Writer: Pdogg, RM, Melanie Joy, Michel Lindgren</SongWriters>
+							<Label>Label: Big Hit</Label>
+							<Studio>Studio: Dogg Bounce, South Korea, Mixstar, Virginia Beach</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: BTS</Singers>
+					<FeatBy>Feat By: Halsey</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2019</Year>
+						<Month>Month: April</Month>
+						<Day>Day: 12</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: May 09,2019</Recorded>
+					<SongLength>Song Length: 3.49</SongLength>
+					<Album>Album: Map of the Soul: Persona</Album>
+				</SongsDetail2>
+				<Int7/>
+			</Block2>
+		</Song>
+		<Song ID=" 08">
+			<Block1>
+				<Image8/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S8">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Rockabye</SongName>
+							<GenreName>Genre: Pop</GenreName>
+							<Country>Country: UK</Country>
+							<Producer>Producer Name: Jack Patterson, Mark Ralph, Steve Mac</Producer>
+							<SongWriters>Song Writer: Jack Patterson, Anne-Marie, Ina Wroldsen, Sean Paul, Ammar Malik</SongWriters>
+							<Label>Label: Atlantic, Warner</Label>
+							<Studio>Studio: Club Ralph, London, The Crypt Studio, London, Rokstone Studios, London</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Clean Bandit</Singers>
+					<FeatBy>Feat By: Sean Paul and Anne-Marie</FeatBy>
+					<NoofArtists>No of Artists: 3</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2016</Year>
+						<Month>Month: October</Month>
+						<Day>Day: 21</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: September 09,2016</Recorded>
+					<SongLength>Song Length: 4.11</SongLength>
+					<Album>Album: Rockabye</Album>
+				</SongsDetail2>
+				<Int8/>
+			</Block2>
+		</Song>
+		<Song ID=" 09">
+			<Block1>
+				<Image9/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S9">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Some Kind of Drug</SongName>
+							<GenreName>Genre: Hip Hop, Pop</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: Christoph Anderrsson, G-Eazy, Kevin Gates</Producer>
+							<SongWriters>Song Writer: Christoph Anderrsson, G-Eazy, Chris Brown</SongWriters>
+							<Label>Label: RCA Records</Label>
+							<Studio>Studio: Studio Album </Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: G-Eazy</Singers>
+					<FeatBy>Feat By: Marc E.Bassy</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2015</Year>
+						<Month>Month: December</Month>
+						<Day>Day: 04</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2014-2015</Recorded>
+					<SongLength>Song Length: 3.42</SongLength>
+					<Album>Album: When It's Dark Out</Album>
+				</SongsDetail2>
+				<Int9/>
+			</Block2>
+		</Song>
+		<Song ID=" 10">
+			<Block1>
+				<Image10/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S10">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Bad Things</SongName>
+							<GenreName>Genre: Hip Hop, Pop</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: The Futuristics</Producer>
+							<SongWriters>Song Writer: Colson Baker, Camila Cabello, Madison Love, Tony Scalzo, Joe Khajadourian, Alex Schwartz</SongWriters>
+							<Label>Label: EST 19XX, Bad Boy, Interscope</Label>
+							<Studio>Studio: Bad Things Studio </Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Machine Gun Kelly</Singers>
+					<FeatBy>Feat By: Camila Cabello</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2016</Year>
+						<Month>Month: October</Month>
+						<Day>Day: 14</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2016</Recorded>
+					<SongLength>Song Length: 3.59</SongLength>
+					<Album>Album: Bad Things</Album>
+				</SongsDetail2>
+				<Int10/>
+			</Block2>
+		</Song>
+		<Song ID=" 11">
+			<Block1>
+				<Image11/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S11">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: I feel It Coming</SongName>
+							<GenreName>Genre: Disco, Pop</GenreName>
+							<Country>Country: Canada</Country>
+							<Producer>Producer Name: Daft Punk, Doc McKinney, Cirkut, The Weekend</Producer>
+							<SongWriters>Song Writer: Abel Tesfaye, Thomas Bangalter, Guy-Manuel deHomem-Christo, Martin Mckinney, Eric Chedeville</SongWriters>
+							<Label>Label: Xo, Republic</Label>
+							<Studio>Studio: Gang Studio (paris, France), Conway Recording Studios</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: The Weeknd</Singers>
+					<FeatBy>Feat By: Kendrick Lamar</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2016</Year>
+						<Month>Month: November</Month>
+						<Day>Day: 24</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: July 2016</Recorded>
+					<SongLength>Song Length: 4.29</SongLength>
+					<Album>Album: Starboy</Album>
+				</SongsDetail2>
+				<Int11/>
+			</Block2>
+		</Song>
+		<Song ID=" 12">
+			<Block1>
+				<Image12/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S12">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Chlorine</SongName>
+							<GenreName>Genre: Pop, Electopop, Trip hop, Rap Rock</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: Tyler Joseph, Paul Meany(co.)</Producer>
+							<SongWriters>Song Writer:  Tyler Joseph, Paul Meany</SongWriters>
+							<Label>Label: Fueled by Ramen</Label>
+							<Studio>Studio:  Tyler Joseph's Home Studio, Columbus, Ohio, United Recording Studios, Hollywood, California</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Twenty One Pilots</Singers>
+					<FeatBy>Feat By: -</FeatBy>
+					<NoofArtists>No of Artists: 1</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2019</Year>
+						<Month>Month: January</Month>
+						<Day>Day: 22</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2019</Recorded>
+					<SongLength>Song Length: 5.24</SongLength>
+					<Album>Album: Trench</Album>
+				</SongsDetail2>
+				<Int12/>
+			</Block2>
+		</Song>
+		<Song ID=" 13">
+			<Block1>
+				<Image13/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S13">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Come and Go</SongName>
+							<GenreName>Genre: Emo Rap, Pop Punk, EDM</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: Marshmello</Producer>
+							<SongWriters>Song Writer: Jarad Higgins, Marshmello</SongWriters>
+							<Label>Label: Grade A, Interscope, Joytime Collective, Geffen</Label>
+							<Studio>Studio: Goldmine Studios</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Juice Wrld</Singers>
+					<FeatBy>Feat By: Marshmello</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2020</Year>
+						<Month>Month: July</Month>
+						<Day>Day: 09</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2018-2020</Recorded>
+					<SongLength>Song Length: 3.25</SongLength>
+					<Album>Album: Legends Never Die</Album>
+				</SongsDetail2>
+				<Int13/>
+			</Block2>
+		</Song>
+		<Song ID=" 14">
+			<Block1>
+				<Image14/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S14">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Girls Like You</SongName>
+							<GenreName>Genre: Pop, Pop Rock</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: Cirkut, Jason Evigan</Producer>
+							<SongWriters>Song Writer: Adam Levin, Henry Walter, Belcalis Almanzar, Brittany Talia Hazzard, Jason Evigan, Gian Stone</SongWriters>
+							<Label>Label: 222, Interscope</Label>
+							<Studio>Studio: Conway (Los,Angeles, California)</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Maroon 5</Singers>
+					<FeatBy>Feat By: Cardi B</FeatBy>
+					<NoofArtists>No of Artists: 2</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2018</Year>
+						<Month>Month: May</Month>
+						<Day>Day: 30</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2017</Recorded>
+					<SongLength>Song Length: 3.35</SongLength>
+					<Album>Album: Girls Like You</Album>
+				</SongsDetail2>
+				<Int14/>
+			</Block2>
+		</Song>
+		<Song ID=" 15">
+			<Block1>
+				<Image15/>
+			</Block1>
+			<Block2>
+				<SongsDetail1>
+					<h2>Song Details</h2>
+					<Song SongID="S15">
+						<Review>⭐⭐⭐⭐⭐</Review>
+						<!--genre_id required-->
+						<Genre Name="Pop" Genre_ID="P1">
+							<SongName>SongName: Young Dumb and Broke</SongName>
+							<GenreName>Genre: R and B/Soul</GenreName>
+							<Country>Country: America</Country>
+							<Producer>Producer Name: Joel Little</Producer>
+							<SongWriters>Song Writer: Khalid Robinson, Joel Little, Talay Riley</SongWriters>
+							<Label>Label: Right Hand, RCA</Label>
+							<Studio>Studio: American Sound Studio</Studio>
+						</Genre>
+					</Song>
+				</SongsDetail1>
+				<SongsDetail2>
+					<Singers>Singer: Khalid</Singers>
+					<FeatBy>Feat By: -</FeatBy>
+					<NoofArtists>No of Artists: 1</NoofArtists>
+					<ReleaseYear>
+						<Year>Year: 2017</Year>
+						<Month>Month: June</Month>
+						<Day>Day: 13</Day>
+					</ReleaseYear>
+					<Recorded>Recorded: 2016</Recorded>
+					<SongLength>Song Length: 3.22</SongLength>
+					<Album>Album: American Teen</Album>
+				</SongsDetail2>
+				<Int15/>
+			</Block2>
+		</Song>
+	</Body>
+	<Footer>
+		<Logo/>
+		<Container>
+			<Address>Address: Dubarmarg, Kathmandu, Nepal </Address>
+			<Contact.Number>Telephone: 014174587, 014157896</Contact.Number>
+			<WebsiteURL> www.nepalmusicstore.com/catalog_19032171.xml </WebsiteURL>
+		</Container>
+		<Follow/>
+	</Footer>
+</Page>
+							
+				
+
+

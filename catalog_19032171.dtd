@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!ELEMENT Page (BackGroundImage|Body|Footer)*>
+<!ATTLIST Page
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+
+<!ELEMENT BackGroundImage (Logo|Store|Slogan)*>
+
+
+<!ELEMENT Logo EMPTY>
+
+
+<!ELEMENT Store (StoreName)*>
+
+
+<!ELEMENT StoreName (#PCDATA)>
+
+
+<!ELEMENT Slogan (#PCDATA)>
+
+<!ELEMENT Body (AboutStore|Song)*>
+
+<!ELEMENT AboutStore (#PCDATA)>
+
+
+<!ELEMENT Song (Block1|Block2|Genre|Review)*>
+<!ATTLIST Song
+    ID CDATA #IMPLIED
+    SongID CDATA #IMPLIED
+  >
+
+
+<!ELEMENT Block1 (Image3|Image1|Image2|Image4|Image5|Image15|Image14|Image6|Image7|Image8|Image9|Image13|Image10|Image11|Image12)*>
+
+
+<!ELEMENT Image1 EMPTY>
+
+
+<!ELEMENT Block2 (SongsDetail2|SongsDetail1|Int1|Int12|Int2|Int14|Int15|Int10|Int3|Int4|Int13|Int5|Int6|Int7|Int8|Int9|Int11)*>
+
+
+<!ELEMENT SongsDetail1 (h2|Song)*>
+
+<!ELEMENT h2 (#PCDATA)>
+
+
+<!ELEMENT Genre (Review|SongName|GenreName|Country|Producer|SongWriters|Label|Studio)*>
+<!ATTLIST Genre
+    Name CDATA #IMPLIED
+    Genre_ID CDATA #IMPLIED
+  >
+
+
+<!ELEMENT Review (#PCDATA)>
+
+
+<!ELEMENT SongName (#PCDATA)>
+
+<!ELEMENT GenreName (#PCDATA)>
+
+
+<!ELEMENT Country (#PCDATA)>
+
+
+<!ELEMENT Producer (#PCDATA)>
+
+
+<!ELEMENT SongWriters (#PCDATA)>
+
+
+<!ELEMENT Label (#PCDATA)>
+
+
+<!ELEMENT Studio (#PCDATA)>
+
+
+<!ELEMENT SongsDetail2 (Singers|FeatBy|NoofArtists|ReleaseYear|Recorded|SongLength|Album)*>
+
+<!ELEMENT Singers (#PCDATA)>
+
+
+<!ELEMENT FeatBy (#PCDATA)>
+
+
+<!ELEMENT NoofArtists (#PCDATA)>
+
+
+<!ELEMENT ReleaseYear (Year|Month|Day)*>
+
+
+<!ELEMENT Year (#PCDATA)>
+
+
+<!ELEMENT Month (#PCDATA)>
+
+
+<!ELEMENT Day (#PCDATA)>
+
+
+<!ELEMENT Recorded (#PCDATA)>
+
+
+<!ELEMENT SongLength (#PCDATA)>
+
+
+<!ELEMENT Album (#PCDATA)>
+
+
+<!ELEMENT Int1 EMPTY>
+
+
+<!ELEMENT Image2 EMPTY>
+
+
+<!ELEMENT Int2 EMPTY>
+
+
+<!ELEMENT Image3 EMPTY>
+
+
+<!ELEMENT Int3 EMPTY>
+
+
+<!ELEMENT Image4 EMPTY>
+
+
+<!ELEMENT Int4 EMPTY>
+
+
+<!ELEMENT Image5 EMPTY>
+
+<!ELEMENT Int5 EMPTY>
+
+
+<!ELEMENT Image6 EMPTY>
+
+
+<!ELEMENT Int6 EMPTY>
+
+<!ELEMENT Image7 EMPTY>
+
+
+<!ELEMENT Int7 EMPTY>
+
+
+<!ELEMENT Image8 EMPTY>
+
+
+<!ELEMENT Int8 EMPTY>
+
+
+<!ELEMENT Image9 EMPTY>
+
+
+<!ELEMENT Int9 EMPTY>
+
+
+<!ELEMENT Image10 EMPTY>
+
+<!ELEMENT Int10 EMPTY>
+
+
+<!ELEMENT Image11 EMPTY>
+
+
+<!ELEMENT Int11 EMPTY>
+
+
+<!ELEMENT Image12 EMPTY>
+
+
+<!ELEMENT Int12 EMPTY>
+
+
+<!ELEMENT Image13 EMPTY>
+
+<!ELEMENT Int13 EMPTY>
+
+
+<!ELEMENT Image14 EMPTY>
+
+<!ELEMENT Int14 EMPTY>
+
+
+<!ELEMENT Image15 EMPTY>
+
+
+<!ELEMENT Int15 EMPTY>
+
+
+<!ELEMENT Footer (Logo|Container|Follow)*>
+
+
+<!ELEMENT Container (Address|Contact.Number|WebsiteURL)*>
+
+<!ELEMENT Address (#PCDATA)>
+
+
+<!ELEMENT Contact.Number (#PCDATA)>
+
+<!ELEMENT WebsiteURL (#PCDATA)>
+
+
+<!ELEMENT Follow EMPTY>
